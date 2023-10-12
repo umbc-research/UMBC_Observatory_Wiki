@@ -3,5 +3,5 @@ PATH="/var/www/obs-web.rs.umbc.edu/data/pages/blog"
 	while read -r directory event file
 	do
 		echo "Change in $file was $event"
-		./blog "$file" "$event"
+		./bin/blog "$file" "$event"
 	done
