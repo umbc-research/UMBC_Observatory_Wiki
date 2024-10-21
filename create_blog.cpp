@@ -3,7 +3,7 @@
 #include <vector>
 #include <fstream>
 
-const char* SIDEBAR_PATH = "/var/www/obs-web.rs.umbc.edu/data/pages/sidebar.txt";
+const char* SIDEBAR_PATH = "/var/www/html/data/pages/sidebar.txt";
 const char* BODY_TAG = "<body>";
 const char* BACKUP_PATH = "/home/gabriek1/backup.txt";
 
